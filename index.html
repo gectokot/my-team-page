@@ -16,80 +16,72 @@
       href="https://devchallenges.io/"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="styles.css" />
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <div class="wrapper">
+      <header>
+        <div>
+          <h1>The creative crew</h1>
+        </div>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+        <div>
+          <h1>WHO WE ARE</h1>
+          <p>
+            We are team of creatively diverse. driven. innovative individuals
+            working in various locations from the world.
+          </p>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="member">
+          <img src="/photo1.png" alt="Bill Mahoney" />
+          <p class="vertical">Product owner</p>
+          <p>Bill Mahoney</p>
+        </div>
+
+        <div class="member">
+          <img src="/photo2.png" alt="Saba Cabrera" />
+          <p class="vertical">Art director</p>
+          <p>Saba Cabrera</p>
+        </div>
+
+        <div class="member">
+          <img src="/photo3.png" alt="Shae Le" />
+          <p class="vertical">Tech Lead</p>
+          <p>Shae Le</p>
+        </div>
+
+        <div class="member">
+          <img src="/photo4.png" alt="Skylah Lu" />
+          <p class="vertical">UX Designer</p>
+          <p>Skylah Lu</p>
+        </div>
+
+        <div class="member">
+          <img src="/photo5.png" alt="Griff Richards" />
+          <p class="vertical">Developer</p>
+          <p>Griff Richards</p>
+        </div>
+
+        <div class="member">
+          <img src="/photo1.png" alt="Stan John" />
+          <p class="vertical">DEverloper</p>
+          <p>Stan John</p>
+        </div>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      
+      <footer>
+        <p>Your name @ DevChallenges.io</p>
+      </footer>
     </div>
   </body>
 </html>

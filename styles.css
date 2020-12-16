@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 80%
+}
+.wrapper {
+  width: 95vw;
+  height: 60vh;
+  padding: 3% 6%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.member:nth-child(even){
+  padding-top: 10%;
+}
