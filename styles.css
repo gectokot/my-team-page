@@ -10,7 +10,7 @@ body {
 }
 
 img {
-  width: 80%;
+  width: 70%;
 }
 
 footer{
@@ -20,15 +20,16 @@ footer{
   font-size: 10px;
 }
 
+header{
+  margin-bottom: 5%;
+}
 
 .top {
   font-family: "PT Serif";
 }
 
 .wrapper {
-  width: 95vw;
-  height: 60vh;
-  padding: 3% 6%;
+  padding: 1% 10%;
   box-sizing: border-box;
 }
 
@@ -40,6 +41,10 @@ footer{
 
 .team {
   font-size: 18px;
+}
+
+.member:nth-child(2n){
+  margin-top: 30%;
 }
 
 .photo {
@@ -54,6 +59,28 @@ footer{
   float: left;
 }
 
-.member:nth-child(even) {
-  padding-top: 10%;
+@media screen and (min-width: 768px){
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .team {
+    width: 40%;
+  }
+  
+  /* this resets margin to 0 */
+  .member:nth-child(2n){
+    margin-top: 0;
+  }
+
+  .member:nth-child(3n-1){
+    margin-top: 20%;
+  }
+
 }
