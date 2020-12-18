@@ -2,12 +2,29 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: whitesmoke;
+  font-size: 18px;
+  font-family: "Poppins";
 }
 
 img {
-  width: 80%
+  width: 80%;
 }
+
+footer{
+  color: #A9A9A9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+}
+
+
+.top {
+  font-family: "PT Serif";
+}
+
 .wrapper {
   width: 95vw;
   height: 60vh;
@@ -21,6 +38,22 @@ img {
   grid-template-rows: 1fr 1fr;
 }
 
-.member:nth-child(even){
+.team {
+  font-size: 18px;
+}
+
+.photo {
+  display: flex;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 10px;
+  float: left;
+}
+
+.member:nth-child(even) {
   padding-top: 10%;
 }
