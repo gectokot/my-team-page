@@ -75,6 +75,10 @@ header {
     justify-content: space-between;
   }
 
+  img {
+    width: 60%;
+  }
+
   .team {
     width: 40%;
   }
@@ -85,6 +89,6 @@ header {
   }
 
   .member:nth-child(3n-1) {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 }
