@@ -29,7 +29,7 @@
 
 ## Overview
 
-![alt text](screenshots/desktop?raw=true 'desktop')
+![alt text](screenshots/desktop.png?raw=true 'desktop')
 ![alt text](screenshots/mobile.png?raw=true 'mobile')
 
 Made with CSS grid.
